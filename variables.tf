@@ -12,7 +12,6 @@ variable "VNetName" {
 
 variable "RgName" {
   type    = string
-  default = "DefaultRSG"
 }
 
 variable "VNetLocation" {
