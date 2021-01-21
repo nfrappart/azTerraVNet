@@ -13,7 +13,6 @@ resource "azurerm_virtual_network" "Terra_VNet" {
 
   tags = {
     Environment       = var.EnvironmentTag
-    Usage             = var.EnvironmentUsageTag
     Owner             = var.OwnerTag
     ProvisioningDate  = var.ProvisioningDateTag
     ProvisioningMode    = var.ProvisioningModeTag

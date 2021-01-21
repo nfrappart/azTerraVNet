@@ -30,12 +30,7 @@ variable "VNetDnsList" {
 
 variable "EnvironmentTag" {
   type    = string
-  default = "Sandbox"
-}
-
-variable "EnvironmentUsageTag" {
-  type    = string
-  default = "Poc usage only"
+  default = "Test"
 }
 
 variable "OwnerTag" {
@@ -45,7 +40,6 @@ variable "OwnerTag" {
 
 variable "ProvisioningDateTag" {
   type    = string
-  default = "Today :)"
 }
 
 variable "ProvisioningModeTag" {
