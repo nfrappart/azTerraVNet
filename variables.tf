@@ -26,6 +26,7 @@ variable "VNetAddressSpace" {
 
 variable "VNetDnsList" {
   type    = list
+  default = null
 }
 
 variable "EnvironmentTag" {
