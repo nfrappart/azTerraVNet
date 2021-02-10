@@ -14,6 +14,5 @@ module "vn-hub-eu" {
   RgName           = "Rg-Demo"
   VNetAddressSpace = ["10.0.0.0/16"]
   VNetDnsList      = null
-  ProvisioningDateTag = timestamp()
 }
 ```
